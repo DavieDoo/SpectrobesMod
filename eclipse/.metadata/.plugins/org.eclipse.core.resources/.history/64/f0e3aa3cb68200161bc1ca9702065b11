@@ -1,0 +1,15 @@
+package DavieDoo.spectrobes.proxy;
+
+import DavieDoo.spectrobes.init.SpectrobesItems;
+
+public class ClientProxy extends CommonProxy{
+
+	@Override
+	public void registerRenders() {
+		
+		SpectrobesItems.registerRenders();
+		
+	}
+	
+	
+}

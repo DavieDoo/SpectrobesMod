@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": {"model": "spm:fossil_block"}
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+      "normal": {
+	  "model": "spm:keystone_red.obj",
+          "custom": { "flip-v": true },
+          
+          "textures": {
+              "#0": "spm:blocks/keystone_red" }
+              	}
+	      }
+}

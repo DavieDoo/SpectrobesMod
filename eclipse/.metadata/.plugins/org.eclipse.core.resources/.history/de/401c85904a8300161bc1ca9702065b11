@@ -1,0 +1,5 @@
+package tileentity;
+
+public class TileEntitySpecialRedKeystone {
+
+}

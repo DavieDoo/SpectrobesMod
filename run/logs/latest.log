@@ -1,0 +1,63 @@
+[20:48:05] [Client thread/INFO]: Setting user: Player799
+[20:48:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:48:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Spectrobes mod
+[20:48:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:48:23] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[20:48:23] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:48:23] [Thread-9/INFO]: OpenAL initialized.
+[20:48:23] [Sound Library Loader/INFO]: Sound engine started
+[20:48:33] [Client thread/INFO]: Created: 16x16 textures-atlas
+[20:48:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Spectrobes mod
+[20:48:36] [Client thread/INFO]: SoundSystem shutting down...
+[20:48:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:48:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:48:36] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[20:48:36] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:48:36] [Thread-11/INFO]: OpenAL initialized.
+[20:48:37] [Sound Library Loader/INFO]: Sound engine started
+[20:48:47] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[20:48:51] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[20:48:51] [Server thread/INFO]: Generating keypair
+[20:48:52] [Server thread/INFO]: Preparing start region for level 0
+[20:48:53] [Server thread/INFO]: Preparing spawn area: 18%
+[20:48:54] [Server thread/INFO]: Preparing spawn area: 84%
+[20:48:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:48:58] [Server thread/INFO]: Player799[local:E:dd68f2dd] logged in with entity id 283 at (223.49632631823388, 84.20000004768372, 214.65124736205303)
+[20:48:58] [Server thread/INFO]: Player799 joined the game
+[20:48:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2220ms behind, skipping 44 tick(s)
+[20:49:07] [Server thread/INFO]: Player799 has just earned the achievement [Taking Inventory]
+[20:49:07] [Client thread/INFO]: [CHAT] Player799 has just earned the achievement [Taking Inventory]
+[20:49:35] [Client thread/INFO]: [CHAT] Saved screenshot as 2016-09-29_20.49.35.png
+[20:49:37] [Server thread/INFO]: Saving and pausing game...
+[20:49:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:49:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:49:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:54:26] [Server thread/INFO]: [Player799: Toggled downfall]
+[20:54:26] [Client thread/INFO]: [CHAT] Toggled downfall
+[20:55:02] [Client thread/WARN]: Needed to grow BufferBuilder buffer: Old size 8388608 bytes, new size 10485760 bytes.
+[20:55:19] [Server thread/INFO]: Saving and pausing game...
+[20:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:57:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3669ms behind, skipping 73 tick(s)
+[20:57:28] [Server thread/INFO]: Saving and pausing game...
+[20:57:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:57:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:57:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:57:47] [Server thread/INFO]: Saving and pausing game...
+[20:57:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:57:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:57:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:59:34] [Client thread/INFO]: Stopping!
+[20:59:34] [Client thread/INFO]: SoundSystem shutting down...
+[20:59:34] [Server thread/INFO]: Stopping server
+[20:59:34] [Server thread/INFO]: Saving players
+[20:59:34] [Server thread/INFO]: Saving worlds
+[20:59:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:59:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:59:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:59:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:59:35] [Client Shutdown Thread/INFO]: Stopping server
+[20:59:35] [Client Shutdown Thread/INFO]: Saving players
+[20:59:35] [Client Shutdown Thread/INFO]: Saving worlds
+[20:59:35] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

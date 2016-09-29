@@ -1,0 +1,26 @@
+package DavieDoo.spectrobes.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
+
+public class BlockKeystoneRed extends Block{
+
+	public BlockKeystoneRed(Material materialIn, Block block) {
+		super(materialIn);
+		Item item = Item.getItemFromBlock(block);
+
+		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation("spm:keystone_red.obj", "inventory"));
+		
+	}
+	
+	@Override
+	public boolean isOpaqueCube() {
+		
+		return false;
+	}
+
+
+}

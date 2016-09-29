@@ -1,0 +1,40 @@
+package DavieDoo.spectrobes.blocks;
+
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import tileentity.TileEntityRedKeystone;
+
+public class BlockRedKeystone extends BlockContainer{
+
+	public BlockRedKeystone()
+    {
+        super(Material.snow);
+        GameRegistry.registerBlock(this, getUnlocalizedName());
+    }
+    public boolean shouldSideBeRendered(IBlockAccess world, int x, int y, int z, int side)
+    {
+        return false;
+    }
+ 
+    @Override
+    public boolean isOpaqueCube()
+    {
+        return false;
+    }
+ 
+    public boolean renderAsNormalBlock()
+    {
+        return false;
+    }
+ 
+    @Override
+    public TileEntity createNewTileEntity(World world, int par2)
+    {
+        return new TileEntityRedKeystone();
+    }
+	
+}

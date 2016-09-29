@@ -1,0 +1,27 @@
+package DavieDoo.spectrobes.proxy;
+
+import DavieDoo.spectrobes.Reference;
+import DavieDoo.spectrobes.init.SpectrobesBlocks;
+import DavieDoo.spectrobes.init.SpectrobesItems;
+import net.minecraftforge.client.model.obj.OBJLoader;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class ClientProxy extends CommonProxy{
+	
+	 @Override
+     public void preInit(FMLPreInitializationEvent e) {
+         super.preInit(e);
+
+         OBJLoader.instance.addDomain(Reference.MOD_ID);
+
+     }
+	@Override
+	public void registerRenders() {
+		
+		SpectrobesBlocks.registerRenders();
+		SpectrobesItems.registerRenders();
+		
+	}
+	
+	
+}

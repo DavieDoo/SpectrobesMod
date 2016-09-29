@@ -1,0 +1,35 @@
+package DavieDoo.spectrobes.init;
+
+import DavieDoo.spectrobes.blocks.BlockFossil;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class SpectrobesBlocks {
+
+	public static Block fossil_block;
+	
+	public static void init() {
+		
+		fossil_block = new BlockFossil(Material.rock).setUnlocalizedName("fossil_block");
+		
+	}
+
+	public static void register() {
+		
+		GameRegistry.registerBlock(fossil_block,  fossil_block.getUnlocalizedName().substring(5));
+		
+	}
+	
+	public static void registerRenders() {
+		
+		
+	}
+	
+	public static void registerRender(Block block) {
+		
+		Item item = Item.getItemFromBlock(block);
+		
+	}
+}

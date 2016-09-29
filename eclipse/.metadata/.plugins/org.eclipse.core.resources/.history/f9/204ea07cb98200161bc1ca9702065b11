@@ -1,0 +1,22 @@
+package DavieDoo.spectrobes.init;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class SpectrobesBlocks {
+
+	public static Block fossil_block;
+	
+	public static void init() {
+		
+		fossil_block = new Block(Material.rock).setUnlocalizedName("fossil_block");
+		
+	}
+
+	public static void register() {
+		
+		
+		
+	}
+	
+}
