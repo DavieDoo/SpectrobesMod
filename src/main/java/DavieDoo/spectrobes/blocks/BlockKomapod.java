@@ -2,6 +2,12 @@ package DavieDoo.spectrobes.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.util.BlockPos;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.world.World;
 
 public class BlockKomapod extends Block{
 	
@@ -10,7 +16,6 @@ public class BlockKomapod extends Block{
 	
 	public BlockKomapod() {
 		super(Material.glass);
-		this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 2.0F, 1.0F);
 		
 		
 	}
@@ -34,4 +39,6 @@ public class BlockKomapod extends Block{
 		return 3;
 		
 	}
+	
+	
 }

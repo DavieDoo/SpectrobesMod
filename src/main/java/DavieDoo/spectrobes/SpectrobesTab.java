@@ -15,7 +15,7 @@ public class SpectrobesTab extends CreativeTabs{
 	@Override
 	public Item getTabIconItem() {
 		
-		return SpectrobesItems.komainu_fossil;
+		return SpectrobesItems.itemKomapod;
 	}
 
 }

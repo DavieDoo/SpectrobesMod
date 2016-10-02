@@ -10,26 +10,26 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class SpectrobesItems {
 
-	public static Item komainu_fossil;
+	public static Item itemKomapod;
 	public static Item prizmod;
 	
 	
 	public static void init() {
-		komainu_fossil = new Item().setUnlocalizedName("komainu_fossil").setCreativeTab(SpectrobesMod.tabSpectrobes);
+		itemKomapod = new Item().setUnlocalizedName("ItemKomapod").setCreativeTab(SpectrobesMod.tabSpectrobes);
 		prizmod = new ItemPrizmod().setUnlocalizedName("prizmod").setCreativeTab(SpectrobesMod.tabSpectrobes);
 		
 	}
 	
 	public static void register() {
 		
-		GameRegistry.registerItem(komainu_fossil, komainu_fossil.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemKomapod, itemKomapod.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(prizmod, prizmod.getUnlocalizedName().substring(5));
 		
 	}
 	
 	public static void registerRenders() {
 		
-		registerRender(komainu_fossil);
+		registerRender(itemKomapod);
 		registerRender(prizmod);
 		
 	}

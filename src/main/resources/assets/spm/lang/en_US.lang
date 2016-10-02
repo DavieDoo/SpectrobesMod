@@ -1,5 +1,10 @@
-item.komainu_fossil.name=Komainu Fossil
-tile.fossil_block.name=Fossil Block
+item.ItemKomapod.name=Komainu Fossil
 item.prizmod.name=Prizmod
+
+tile.fossil_block.name=Fossil Block
+tile.komapod.name=Komainu Fossil
+tile.keystone_red.name=Red Keystone
+tile.keystone_green.name=Green Keystone
+tile.keystone_blue.name=Blue Keystone
 
 itemGroup.tabSpectrobes=Spectrobes Mod
